@@ -1,0 +1,247 @@
+*{margin: 0;
+padding: 0;}
+ 
+/*Flex*/
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    padding: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #2b1331;
+background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+}
+.foter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*estilos generales*/
+body{
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.img1{
+    width: 100%;
+} 
+span a {color: black;
+text-decoration: none;
+color: white;
+}
+ul span a:hover{
+background-color: #bf3a30;
+background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+padding: 20%;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.imgs{
+    width: 60%;
+    height: 70%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+p{
+   display: block;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  margin: 10px;
+  color: white;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+}
+.img3{
+   width: 100%; 
+}
+#letra{
+    font-size: x-large
+}
+
+
+
+/*grids*/
+
+.contenedor{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 40% 40% 20%;
+    text-align: center;
+}
+.contenedor2{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 40% 40% 20%; 
+    text-align: center;
+}
+.contenedor3{
+   display: grid;
+   margin: auto;
+   grid-template-columns: 50% 50%;
+   text-align: center; 
+}
+.contenedor4{
+
+}
+
+
+
+/*animaciones*/
+
+.tituloAnimado{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+
+.translate{
+    animation-name: Menu;
+    animation-iteration-count: 1;
+    animation-duration: 6s; 
+}
+@keyframes Menu{
+    from{
+        transform: translate(800px);
+         opacity: 0;
+     }
+     to{
+         transform: translate(0);
+         opacity: 1;
+     } 
+}
+.tituloAnimado2{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+.tituloAnimado3{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 6s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+.tituloAnimado4{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 8s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+.tituloAnimado5{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 10s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+.tituloAnimado6{
+    animation-name: Titulo;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-delay: 12s;
+}
+@keyframes Titulo{
+ from{
+    transform: translate(-500px);
+     opacity: 0;
+ }
+ to{
+     transform: translate(0);
+     opacity: 1;
+ }
+}
+
+
+
+
+
+
